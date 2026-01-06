@@ -28,3 +28,4 @@ jobs:
           app-name: 'OneTrustReport'
           package: '.'
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+          package: .
