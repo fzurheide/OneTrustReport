@@ -28,3 +28,4 @@ jobs:
           app-name: 'OneTrustReport'
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
           package: .
+          scm-do-build-during-deployment: true
