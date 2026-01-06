@@ -3,7 +3,7 @@ name: Azure Functions Python CI/CD
 on:
   push:
     branches:
-      - main  # Change if your branch is different
+      - main
   workflow_dispatch:
 
 jobs:
